@@ -1,0 +1,250 @@
+/*  Fonts
+-----
+font-family: 'Lato', sans-serif;
+ font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*======================= */
+/* Typography */
+/*======================= */
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: #F1737F;
+    margin: 0;
+}
+
+
+
+/* Layout */
+
+header {
+    color: white;
+    background-color: #6D5C80;
+}
+
+.quote {
+    font-size: 1em;
+    margin: 0;
+    color: #FFDFCF;
+}
+
+.title {
+    padding: 15px 0 15px 15px;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    background-color: #335E80;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    text-transform: uppercase;
+
+}
+
+nav li {
+    list-style: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+nav a:hover {
+    color: #F8B290;
+}
+
+nav a:focus {
+    color: #F8B290;
+}
+
+
+
+.current {
+    border-bottom: 2px solid white;
+}
+
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* SECTION ONE */
+
+
+.article-featured{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    border-bottom: 2px solid red;
+   
+}
+
+.article-image {
+    width: 829px;
+    height: 380px;
+    background-color: red;
+}
+
+.article-body {
+    margin-top: 2em;
+    padding-left: 0;
+}
+
+
+/* SECTION TWO */
+
+.section-two{
+    border-bottom: 2px solid red;
+
+
+}
+
+.section2-other{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.section2-title {
+    margin-top: 0.5em;
+
+    
+}
+
+.section2-other-image{
+    width: 150px;
+    height: 150px;
+}
+
+.section2-see-more{
+    text-align: center;
+}
+
+.section2-see-more a {
+    color: black
+}
+
+.section2-see-more a:hover {
+    color: rgb(66, 177, 214);
+}
+
+
+/* EMAIL SECTION */
+
+.email-section{
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.fa-envelope{
+    font-size: 100px;
+
+}
+
+.email-info{
+    font-weight: lighter;
+}
+
+.email-link{
+    color:black;
+}
+
+.email-link:hover{
+    color:#9F5B67;
+}
+
+.email-link:focus{
+    color: #F1737F;
+}
+
+
+
+footer{
+    background-color: #9F5B67;
+    padding:3em;
+    text-align: center;
+}
+
+.social {
+    font-size: 4em;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social{
+    color: black;
+}
+
+.fa-facebook-square:hover{
+    color: #4266B2;
+}
+
+.fa-instagram:hover{
+    color: rgb(218, 67, 130);
+
+}
+
+.fa-twitter-square:hover{
+    color: #1A91DA;
+}
+
+.copyright {
+    color: #F9B38F;
+    font-size: 1.5em;
+}
+
+@media (max-width:665px) {
+
+    header {
+        text-align: center;
+    }
+
+    .quote {
+        margin: 0;
+        padding: 0.5em;
+    }
+
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {  
+        /* text-align: center; */
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+}
