@@ -20,12 +20,17 @@ img {
 /* Typography */
 /*======================= */
 
-h1 {
+h1,h2,h3 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     color: #F1737F;
-    margin: 0;
 }
+
+h1 {
+    margin: 0
+}
+
+
 
 
 
@@ -111,10 +116,6 @@ nav a:focus {
    
 }
 
-.article-body {
-    margin-top: 2em;
-    padding-left: 0;
-}
 
 
 /* SECTION TWO */
@@ -131,12 +132,6 @@ nav a:focus {
     display: flex;
     justify-content: space-between;
     margin-top: 3em;
-}
-
-.section2-title {
-    margin-top: 0.5em;
-
-    
 }
 
 .section2-other-image{
