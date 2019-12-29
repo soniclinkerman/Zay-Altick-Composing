@@ -7,3 +7,13 @@
 .composition-disclaimer{
     font-weight: 300;
 }
+
+@media (min-width: 900px) {
+    .spaced {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+

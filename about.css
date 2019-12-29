@@ -1,6 +1,6 @@
 .section-about{
     padding: 2em 0;
-    border-bottom: 2px solid red;
+    border-bottom: 1px solid rgb(179, 179, 179);
     text-align: center;
 }
 
@@ -10,3 +10,6 @@
 }
 
 
+.about-title{
+    margin-bottom: 1em;
+}
