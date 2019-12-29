@@ -57,9 +57,10 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0;
     text-transform: uppercase;
+    
 
 }
 
@@ -71,8 +72,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white
+    color: white;
+   
 }
+
+
 
 nav a:hover {
     color: #F8B290;
