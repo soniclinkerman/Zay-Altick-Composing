@@ -39,10 +39,12 @@ header {
     font-size: 1em;
     margin: 0;
     color: #FFDFCF;
+    text-transform: capitalize;
 }
 
 .title {
-    padding: 15px 0 15px 15px;
+    padding: 15px 0 ;
+    margin-left: 2.5em;
 }
 
 
@@ -224,7 +226,7 @@ footer{
 
 .copyright {
     color: #F9B38F;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
@@ -243,11 +245,11 @@ footer{
     }
 
     .article-body{
-        width: 90%;
+        width: 80%;
     }
 
     .composition-primary, .section-two-primary{
-        width: 100%;
+        width: 70%;
         margin: auto;
     }
 
@@ -259,7 +261,7 @@ footer{
     }
 
     .section-two-img{
-        width: 90%
+        width: 80%
     }
     }
 
