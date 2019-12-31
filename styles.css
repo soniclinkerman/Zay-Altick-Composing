@@ -112,7 +112,7 @@ nav a:focus {
 
 .quote-2{
     font-size: 1.4em;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .article-featured{
@@ -175,7 +175,7 @@ nav a:focus {
 }
 
 .email-info{
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .email-link{
@@ -194,7 +194,7 @@ nav a:focus {
 
 footer{
     background-color: #9F5B67;
-    padding:3em;
+    padding: 3em;
     text-align: center;
 }
 
@@ -202,13 +202,10 @@ footer{
     font-size: 4em;
 }
 
-.social-icons{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .social{
     color: black;
+    margin: 0.4em;
 }
 
 .fa-facebook-square:hover{
